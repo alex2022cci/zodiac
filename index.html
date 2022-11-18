@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votre signe astro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Bienvenue</h1>
+
+    <p><label for="FirstName">🎫 Votre nom ?  (de 3 à 20 caractères)</label></p>
+    <p><input type="text" id="firstName" name="firstName" minlength="3" maxlength="20" size="20"></p>
+
+    <p><label for="date">📅 Votre date de naissance ? </label></p>
+    <p><input type="date" name="dbd" id="dbd" min="1970-01-01" max="2030-01-01"></p>
+
+    <button type="button" id="infoUser" onclick="showName()"> Validez</button>
+    <p>Présentation : </p>
+    <label for="prez" id="prez"> </label>
+    <div id="aff1">✨</div>
+    <hr>
+
+    <div class="cadre">
+        <div class="choixSigne"></div>
+        <div class="cadreSoul"></div>
+        <div class="soul"></div>
+    </div>
+
+    <div class="cadre2"></div>
+
+    <div id="aff2">🎇</div>
+    <hr>
+
+   
+
+
+    <script>
+
+        /*
+        input2 = document.querySelector('[name="dbd"]');
+        
+        console.log('input2');
+        */
+
+// script N° du jour dans l'année //
+        /*
+        var today = new Date();
+        var first = new Date(today.getFullYear(), 0, 1);
+        var theDay = Math.round(((today - first) / 1000 / 60 / 60 / 24) + .5, 0);
+        
+         alert("Today is the " + theDay + (theDay == 1 ? "st" : (theDay == 2 ? "nd" : (theDay == 3 ? "rd" : "th"))) + " day of the year");
+        */
+
+        /*
+        "Bélier" [80,109];
+        "Taureau" [110,140]; 
+        "Gémeaux" [141, 172] ;
+        "Cancer" [173, 203]; 
+        "Lion" [204, 234 ] ;
+        "Vierge" [235 , 265 ] ;
+        "Balance" [266, 296 ] ;
+        "Scorpion" [297 , 326] ;
+        "Sagittaire" [327 , 356 ] ;
+        "Capricorne" [357,20 ] ;
+        "Verseau" [21, 50 ] ;
+        "Poissons" [51 , 79] ;
+        
+        */
+
+    </script>
+
+    <script src="/main.js"></script>
+    <script src="/soul.js"></script>
+
+</body>
+
+</html>

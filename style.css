@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+    color: yellow;
+    text-align: center;
+    background-image: url(./img/BG.png);
+}
+
+p{
+    font-family :Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+}
+
+.cadre{
+    background-image: url(./img/roue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width : 95vw ;
+    max-width: 600px;
+    height: 95vw;
+    max-height: 600px;
+    position: relative;
+    margin : 0 auto ;
+
+}
+/*
+.cadre2{
+    background-image: url(./img/roue2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width : 95vw ;
+    max-width: 600px;
+    height: 95vw;
+    max-height: 600px;
+    position: relative;
+    margin : 0 auto ;
+}
+*/
+
+.soul,.choixSigne,.cadreSoul{
+    position: absolute ;
+    top  : 50% ;
+    left : 50% ;
+    transform: translate3d(-50% , -50% , 0 ); 
+}
+
+.choixSigne{
+    border: 2px dashed red ;
+    width : 75px;
+    height: 75px;
+}
+
+.cadreSoul{
+    border: 4px dashed green;
+}
+
+.soul{
+   border: 3px dashed aqua;
+    
+    width: 40px;
+    height:40px;
+}
+
